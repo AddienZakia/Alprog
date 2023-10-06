@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
+// Materi Pengkondisian 
+// Progam mencari akar persamaan kuadrat
+
 class belajar {
 	public static void main(String[] args) {
-		// Progam mencari akar persamaan kuadrat
 		
 		double a,b,c, diskriminan, x1, x2;
 		Scanner data = new Scanner(System.in);

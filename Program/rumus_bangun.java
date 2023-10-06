@@ -1,3 +1,7 @@
+
+// Materi variable dasar
+// Program mencari volume, luas bangun ruang dan bangun datar
+
 class alpro {
 	public static void main(String[] args) {
 		// nilai phi
@@ -33,14 +37,5 @@ class alpro {
 		System.out.println("Volume tabung : " +volumeTabung);
 		System.out.println("Luas permukaan tabung: " +luasTabung);
 		
-		// konversi detik ke menit dan jam
-		int detik = 12923, menit = 0, jam = 0;
-		
-		menit = detik % 60 == 0 ? 0 : detik / 60;
-		jam = menit % 60 == 0 ? 0: menit / 60;
-		detik = detik % 60;
-		menit %= 60;
-		
-		System.out.println(jam + " Jam, " + menit + " Menit, " + detik + " detik");
 	}
 }

@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// Materi switch case
+// Program untuk menebak beberapa hari kedepan
+
 class belajar {
 	public static void main(String[] args) {
 		Scanner data = new Scanner(System.in);

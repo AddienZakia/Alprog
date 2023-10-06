@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// Materi Pengkondisian
+// Program konversi nilai angka (NA) menjadi nilai huruf (NH)
+
 class Konversi {
 	public static void main(String[] args) {
 		Scanner data = new Scanner(System.in);

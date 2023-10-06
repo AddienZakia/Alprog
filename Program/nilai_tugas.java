@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// Materi input output
+// Program menghitung nilai akhir 
+
 class Konversi {
 	public static void main(String[] args) {
 		

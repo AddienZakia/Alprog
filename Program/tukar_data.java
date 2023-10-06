@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// Materi input dan output
+// Program menukar 2 buah data dari in
+
 class Alprog {
 	public static void main(String[] args) {
 		Scanner data = new Scanner(System.in);
