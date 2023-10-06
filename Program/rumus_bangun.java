@@ -1,5 +1,5 @@
 
-// Materi variable dasar
+// Materi operasi matematika
 // Program mencari volume, luas bangun ruang dan bangun datar
 
 class alpro {
