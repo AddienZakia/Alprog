@@ -8,7 +8,10 @@ class belajar {
 		System.out.print("Masukkan kode hari : ");
 		int kodeHari = data.nextInt();
 		
-		System.out.print("Masukkan jumlah hari : ");
+		System.out.print("Masukkan kode pasaran : ");
+		int kodePasaran = data.nextInt();
+		
+		System.out.print("Masukkan lama hari : ");
 		int jumlahHari = data.nextInt();
 		
 		String namaHari = "(tidak ditemukan)";
@@ -40,7 +43,7 @@ class belajar {
 		}
 		
 		String pasaran = "";
-		switch((jumlahHari + kodeHari) % 5) {
+		switch((jumlahHari + kodePasaran) % 5) {
 			case 0:
 				pasaran = "pon";
 				break;
