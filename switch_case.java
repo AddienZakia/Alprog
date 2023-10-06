@@ -39,7 +39,29 @@ class belajar {
 				break;
 		}
 		
-		System.out.println("Sekarang ada di hari : " + namaHari);
+		String pasaran = "";
+		switch((jumlahHari + kodeHari) % 5) {
+			case 0:
+				pasaran = "pon";
+				break;
+			case 1:
+				pasaran = "wage";
+				break;
+			case 2:
+				pasaran = "kliwon";
+				break;
+			case 3:
+				pasaran = "legi";
+				break;
+			case 4:
+				pasaran = "pahin";
+				break;
+			default:
+				pasaran = "(Kode tidak ditemukan)";
+				break;
+		}
+		
+		System.out.println(jumlahHari + " Hari kedepan adalah hari " + namaHari + " dan hari " + pasaran);
 		
 	}
 } 
