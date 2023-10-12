@@ -80,8 +80,8 @@ public class file {
         for (int i = 0; i < kolomA; i++) {
             for (int j = 0; j < barisA; j++) {
                 matrixA[i][j] = sum;
-                sum++;
                 System.out.printf("%4d", sum);
+                sum++;
             }
             System.out.println();
         }
@@ -92,8 +92,8 @@ public class file {
         for (int i = 0; i < kolomB; i++) {
             for (int j = 0; j < barisB; j++) {
                 matrixB[i][j] = sumB;
+                System.out.printf("%4d", sumB);
                 sumB++;
-            System.out.printf("%4d", sumB);
             }
             System.out.println();
         }
@@ -102,7 +102,7 @@ public class file {
         
         for (int i = 0; i < kolomB; i++) {
             for (int j = 0; j < barisB; j++) {
-                System.out.printf("%4d", matrixA[i][j] + matrixB[i][j]);
+                System.out.printf("%4d", matrixA[i][j] + matrixB[i][j] );
             }
             System.out.println();
         }
