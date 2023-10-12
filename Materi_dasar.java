@@ -6,7 +6,7 @@ class Dasar {
 		// Variable
 		int angka = 1;
 		double desimal = 3.2;
-		char huruf = "a";
+		// char huruf = "a";
 		String kalimat = "Hello world";
 		boolean kebenaran = true; // true / false
 		
@@ -63,7 +63,7 @@ class Dasar {
 		
 		
 		// Switch case
-		int matkul = "fisika";
+		String matkul = "fisika";
 		switch(matkul) {
 			case "matematika":
 				System.out.println("Matkul matematika");
