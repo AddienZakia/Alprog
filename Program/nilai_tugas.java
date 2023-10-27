@@ -3,13 +3,13 @@ import java.util.Scanner;
 // Materi input output
 // Program menghitung nilai akhir 
 
-class Konversi {
+public class nilai_tugas {
 	public static void main(String[] args) {
-		
+
 		String Nama_Mhs;
 		double tugas, kuis1, kuis2, ets, eas, nilai_akhir;
 		Scanner data = new Scanner(System.in);
-		
+
 		System.out.print("Masukkan nama mahasiswa : ");
 		Nama_Mhs = data.nextLine();
 		System.out.print("Masukkan nilai tugas    : ");
@@ -22,9 +22,11 @@ class Konversi {
 		ets = data.nextDouble();
 		System.out.print("Masukkan nilai EAS      : ");
 		eas = data.nextDouble();
-		
+
+		data.close();
+
 		nilai_akhir = (0.2 * tugas) + (0.15 * kuis1) + (0.15 * kuis2) + (0.25 * ets) + (0.25 * eas);
-		
+
 		System.out.println("");
 		System.out.println("Nama Mahasiswaa : " + Nama_Mhs);
 		System.out.println("Nilai tugas 	: " + tugas);

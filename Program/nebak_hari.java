@@ -6,18 +6,20 @@ import java.util.Scanner;
 class belajar {
 	public static void main(String[] args) {
 		Scanner data = new Scanner(System.in);
-		
+
 		System.out.print("Masukkan kode hari : ");
 		int kodeHari = data.nextInt();
-		
+
 		System.out.print("Masukkan kode pasaran : ");
 		int kodePasaran = data.nextInt();
-		
+
 		System.out.print("Masukkan lama hari : ");
 		int jumlahHari = data.nextInt();
-		
+
+		data.close();
+
 		String namaHari = "(tidak ditemukan)";
-		switch((jumlahHari + kodeHari) % 7) {
+		switch ((jumlahHari + kodeHari) % 7) {
 			case 0:
 				namaHari = "Minggu";
 				break;
@@ -43,9 +45,9 @@ class belajar {
 				System.out.println("Kode tidak ditemukan");
 				break;
 		}
-		
+
 		String pasaran = "";
-		switch((jumlahHari + kodePasaran) % 5) {
+		switch ((jumlahHari + kodePasaran) % 5) {
 			case 0:
 				pasaran = "pon";
 				break;
@@ -65,8 +67,8 @@ class belajar {
 				pasaran = "(Kode tidak ditemukan)";
 				break;
 		}
-		
+
 		System.out.println(jumlahHari + " Hari kedepan adalah hari " + namaHari + " dan hari " + pasaran);
-		
+
 	}
-} 
+}
