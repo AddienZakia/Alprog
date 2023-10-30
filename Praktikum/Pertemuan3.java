@@ -7,6 +7,8 @@ public class Pertemuan3 {
         System.out.print("Masukkan nilai bilangan diantara 0 hingga 100 : ");
         Scanner baca = new Scanner(System.in);
 
+        baca.close();
+
         int bilangan = baca.nextInt();
         if (bilangan > 100)
             System.out.println("Nilai terlalu besar");

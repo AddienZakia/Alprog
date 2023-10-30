@@ -15,6 +15,8 @@ public class Pertemuan3_Latihan2 {
         System.out.println(kata);
         int pilihan = data.nextInt();
 
+        data.close();
+
         if (pilihan == 1) {
             System.out.print("Masukkan rusuk : ");
             int rusuk = data.nextInt();
