@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Nomor2 {
     public static void main(String[] args) {
-        // // Program menentukan apakah a hasil modulo dari b (no 2)
+        // Program menentukan apakah a hasil modulo dari b (no 2)
         int a, nilai, pembagi = 0;
         Scanner data = new Scanner(System.in);
 
