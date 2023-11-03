@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * file
+ * file testing
  */
 public class file {
 
@@ -9,31 +9,31 @@ public class file {
         // int sum = 0, i = 1;
 
         // while (i < 10) {
-        //     sum += i;
-        //     i++;
+        // sum += i;
+        // i++;
         // }
 
         // System.out.println("Sum is " + sum);
 
         // int sum = 0, i = 1;
         // do {
-        //     sum += i;
-        //     i++;
+        // sum += i;
+        // i++;
         // } while (i < 10);
         // System.out.println(sum);
-        
+
         // int i = 0, sum = 0;
         // while (i < 5) {
-        //     for (int j = 0; j < 6; j++) {
-        //         System.out.print("Nilai i : " + i + ", Nilai j : " + j + ", Nilai sum : " + sum);
-        //         sum += i+j;
-        //         System.out.println(", Hasil : " + sum);
-        //     }
-        //     i++;
+        // for (int j = 0; j < 6; j++) {
+        // System.out.print("Nilai i : " + i + ", Nilai j : " + j + ", Nilai sum : " +
+        // sum);
+        // sum += i+j;
+        // System.out.println(", Hasil : " + sum);
+        // }
+        // i++;
         // }
 
         // System.out.println("Total : " + sum);
-
 
         // int m, n;
         // Scanner data = new Scanner(System.in);
@@ -47,12 +47,11 @@ public class file {
         // data.close();
 
         // for (int i = 0; i <= m; i++) {
-        //     for (int j = 0; j <= n; j++) {
-        //         System.out.printf("%4d", i*j);
-        //     }
-        //     System.out.println();
+        // for (int j = 0; j <= n; j++) {
+        // System.out.printf("%4d", i*j);
         // }
-
+        // System.out.println();
+        // }
 
         int kolomA = 0, barisA = 0, kolomB = 0, barisB = 0;
         Scanner data = new Scanner(System.in);
@@ -99,10 +98,10 @@ public class file {
         }
 
         System.out.println();
-        
+
         for (int i = 0; i < kolomB; i++) {
             for (int j = 0; j < barisB; j++) {
-                System.out.printf("%4d", matrixA[i][j] + matrixB[i][j] );
+                System.out.printf("%4d", matrixA[i][j] + matrixB[i][j]);
             }
             System.out.println();
         }
