@@ -12,16 +12,16 @@ public class Nomor2 {
         while (pembagi == 0) {
             System.out.print("Masukkan nilai kedua : ");
             pembagi = data.nextInt();
-
+            System.out.println();
             if (pembagi == 0)
                 System.out.println("Angka kedua atau pembagi tidak bisa diberi angka 0");
         }
+        System.out.println("masukkan nilai yang");
 
         System.out.print("Masukkan nilai yang dicari : ");
         a = data.nextInt();
 
         data.close();
-
         String awalan = "\nNilai a yang dicari : " + a +
                 "\nNilai awal          : " + nilai +
                 "\nNilai yang dibagi   : " + pembagi;
