@@ -18,8 +18,6 @@ public class Array_satu_dimensi {
         }
 
         // Cara ngeprint array dari awal hingga akhir dan sebaliknya
-        char[] a = { 'a', 'b', 'c' };
-
         for (int i = 0; i < array.length; i++) {
             System.out.println("Data ke-" + (i + 1) + " = " + array[i]);
         }
