@@ -4,7 +4,7 @@ public class Nomor1 {
     public static void main(String[] args) {
         // Tugas praktikkum Senin, 9 oktober 2023
 
-        // // Program rumus volume dan luas permukaan tabung (no 1)
+        // Program rumus volume dan luas permukaan tabung (no 1)
         double jari_jari, tinggi, volume, luas;
         Scanner data = new Scanner(System.in);
 
