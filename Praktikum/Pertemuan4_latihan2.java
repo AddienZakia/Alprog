@@ -22,7 +22,6 @@ public class Pertemuan4_latihan2 {
             }
         } while (a < 0 || b < 0 || n < 0);
 
-        int sum = 0;
         for (int i = a; i <= (a + (n - 1) * b); i += b) {
             System.out.print(i + " ");
         }

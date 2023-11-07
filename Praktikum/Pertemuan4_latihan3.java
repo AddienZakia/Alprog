@@ -17,7 +17,6 @@ public class Pertemuan4_latihan3 {
             sum = a + b;
 
             System.out.print(sum + " ");
-            int x = a;
             a = b;
             b = sum;
         }
