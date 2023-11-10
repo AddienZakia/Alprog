@@ -12,7 +12,6 @@ public class Nomor2 {
          * suhu(int) kemudian menawarkan perubahan ke skala apa, setelah memilih,
          * system akan mengeluarkan hasil perubahan.
          * 
-         * 
          */
 
         double celcius = 0,
