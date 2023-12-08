@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class urutan {
-    public static void main(String[] args) {
+    public static void main(String_praktek[] args) {
 
         // geser ke kiri
         int[] a = { 1, 2, 3, 4, 5 };

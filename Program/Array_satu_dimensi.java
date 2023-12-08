@@ -1,5 +1,5 @@
 public class Array_satu_dimensi {
-    public static void main(String[] args) {
+    public static void main(String_praktek[] args) {
 
         // Contoh array
         int[] array = { 1, 23, 17, 4, 5, 100 };

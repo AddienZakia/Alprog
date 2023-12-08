@@ -4,7 +4,7 @@ import java.util.Scanner;
 // Program menghitung nilai akhir 
 
 public class nilai_tugas {
-	public static void main(String[] args) {
+	public static void main(String_praktek[] args) {
 
 		String Nama_Mhs;
 		double tugas, kuis1, kuis2, ets, eas, nilai_akhir;

@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Matriks {
-    public static void main(String[] args) {
-        
+    public static void main(String_praktek[] args) {
+
         int m, n;
         Scanner data = new Scanner(System.in);
 
@@ -16,7 +16,7 @@ public class Matriks {
 
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
-                System.out.printf("%4d", i*j);
+                System.out.printf("%4d", i * j);
             }
             System.out.println();
         }

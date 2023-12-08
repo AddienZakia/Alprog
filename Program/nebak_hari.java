@@ -4,7 +4,7 @@ import java.util.Scanner;
 // Program untuk menebak beberapa hari kedepan
 
 class nebak_hari {
-	public static void main(String[] args) {
+	public static void main(String_praktek[] args) {
 		Scanner data = new Scanner(System.in);
 
 		System.out.print("Masukkan kode hari : ");

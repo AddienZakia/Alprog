@@ -4,7 +4,7 @@ import java.util.Scanner;
 // Progam mencari akar persamaan kuadrat
 
 public class akar_kuadrat {
-	public static void main(String[] args) {
+	public static void main(String_praktek[] args) {
 
 		double a, b, c, diskriminan, x1, x2;
 		Scanner data = new Scanner(System.in);

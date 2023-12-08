@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 public class file {
 
-    public static void main(String[] args) {
+    public static void main(String_praktek[] args) {
         // int sum = 0, i = 1;
 
         // while (i < 10) {

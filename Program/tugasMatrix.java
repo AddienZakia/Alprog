@@ -67,7 +67,7 @@ public class tugasMatrix {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String_praktek[] args) {
         Scanner data = new Scanner(System.in);
 
         // Matrix A

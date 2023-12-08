@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array_multidimensi {
-    public static void main(String[] args) {
+    public static void main(String_praktek[] args) {
         Scanner data = new Scanner(System.in);
 
         int row, column;
